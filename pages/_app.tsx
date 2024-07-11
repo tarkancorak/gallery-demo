@@ -8,7 +8,7 @@ import {
 } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
-import { BaseSepoliaTestnet } from "../constants/BaseSepoliaTestNet";
+import { BaseSepoliaTestnet } from "../constants/BaseSepoliaTestnet";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
