@@ -9,6 +9,7 @@ Visit the live demo here: [Metamare Gallery Demo](https://metamare-gallery-demo.
 - [About](#about)
 - [Features](#features)
 - [How It Works](#how-it-works)
+- [Demo Videos](#demo-videos)
 - [Tokenization of Real World Assets](#tokenization-of-real-world-assets)
 
 ## About
@@ -26,6 +27,10 @@ Metamare Gallery Demo is an innovative project that bridges the physical and dig
 1. **Physical Paintings**: Each painting has an NFC tag on its backside.
 2. **NFC Tap**: When a user taps the NFC tag with their smartphone, they are redirected to the NFT's detail page.
 3. **NFT Detail Page**: This page provides detailed information about the NFT, including its metadata and provenance. Example URL: [Sample NFT Detail Page](https://metamare-gallery-demo.vercel.app/contracts/0x266C30F1F9B840aE1884CaeF49126Cc25EAca84c/tokens/0).
+
+## Demo Videos
+- Showcase Counterfeit: https://youtube.com/shorts/A2AMQyZgyZg
+- Showcase Original: https://youtube.com/shorts/_aZbEzwAAD0
 
 ## Tokenization of Real World Assets
 
