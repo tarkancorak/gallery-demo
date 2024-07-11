@@ -1,40 +1,44 @@
-## Getting Started
+# Metamare Gallery Demo
 
-Create a project using this example:
+Welcome to the Metamare Gallery Demo! This project showcases the digital versions of physical paintings as NFTs. These NFTs are linked to the physical paintings through NFC tags, enabling users to access detailed pages about each NFT by simply tapping their smartphone on the tag.
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+Visit the live demo here: [Metamare Gallery Demo](https://metamare-gallery-demo.vercel.app/)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+- [About](#about)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Tokenization of Real World Assets](#tokenization-of-real-world-assets)
 
-## Environment Variables
+## About
 
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
+Metamare Gallery Demo is an innovative project that bridges the physical and digital art worlds by tokenizing real-world paintings as NFTs. Each painting is equipped with an NFC tag that links to its corresponding NFT, providing a seamless way to authenticate and view detailed information about the artwork.
 
-## Deploy to IPFS
+## Features
 
-Deploy a copy of your application to IPFS using the following command:
+- **NFT Display**: View digital versions of physical paintings as NFTs.
+- **NFC Integration**: Access detailed NFT pages by tapping NFC-enabled smartphones on the paintings.
+- **Smart Contract Integration**: Each NFT is linked to a smart contract, ensuring authenticity and traceability.
 
-```bash
-yarn deploy
-```
+## How It Works
 
-## Learn More
+1. **Physical Paintings**: Each painting has an NFC tag on its backside.
+2. **NFC Tap**: When a user taps the NFC tag with their smartphone, they are redirected to the NFT's detail page.
+3. **NFT Detail Page**: This page provides detailed information about the NFT, including its metadata and provenance. Example URL: [Sample NFT Detail Page](https://metamare-gallery-demo.vercel.app/contracts/0x266C30F1F9B840aE1884CaeF49126Cc25EAca84c/tokens/0).
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+## Tokenization of Real World Assets
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
+Tokenization of real-world assets (RWAs) is the process of creating digital tokens on a blockchain that represent ownership of real-world assets. This technology offers numerous benefits including increased liquidity, transparency, and accessibility.
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+### Key Benefits of Tokenization
 
-## Join our Discord!
+- **Efficiency**: Enhances performance by reducing the inputs required to achieve high output, thus improving transparency and transaction costs.
+- **Liquidity**: Facilitates easier buying, selling, and trading of assets by making ownership changes transparent and structured.
+- **Decentralization of Ownership**: Enables the distribution of asset ownership in a structured manner, allowing for fractional ownership and broader access.
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+### Applications of Tokenization
+
+- **Art and Collectibles**: Tokenization provides a way to authenticate and trade high-value physical assets like art and collectibles.
+- **Real Estate**: Real estate properties can be tokenized to allow fractional ownership, making investment more accessible.
+- **Supply Chain**: Enhances traceability and efficiency in supply chain management by providing a transparent ledger of asset ownership and movement.
